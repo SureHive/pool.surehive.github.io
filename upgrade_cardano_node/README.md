@@ -11,13 +11,13 @@ ssh -i <location of the pem file> username@public_ip_adress
 
 ### clone git repository
 ```bash
-git clone https://github.com/ORO-STAKE-POOL/oro-stake-pool-github.io.git
-chmod +x oro-stake-pool-github.io/upgrade_cardano_node/*
+git clone https://github.com/SureHive/pool.surehivegithub.io.git
+chmod +x pool.surehivegithub.io/upgrade_cardano_node/*
 ```
 
 ### Run script upgrade_node_v1.2.6.2.sh in the background - script takes few hours :timer_clock: to complete
 ```bash
-nohup ./oro-stake-pool-github.io/upgrade_cardano_node/upgrade_node_v1.2.6.2.sh &
+nohup ./pool.surehivegithub.io/upgrade_cardano_node/upgrade_node_v1.2.6.2.sh &
 ```
 * `jobs` command will display status of the scripts that are running in the background 
 
